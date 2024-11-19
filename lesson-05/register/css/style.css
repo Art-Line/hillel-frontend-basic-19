@@ -1,0 +1,50 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.register {
+    width: 300px;
+    background-color: #ffffff;
+    border-bottom: 10px solid #46A358;
+    padding-top: 52px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+    margin: 50px auto;
+}
+
+.default-input {
+    font-size: 14px;
+    line-height: 16px;
+    color: #A5A5A5;
+    border: 1px solid #EAEAEA;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 5px;
+    width: 270px;
+}
+
+.line {
+    margin-bottom: 16px;
+}
+
+.continue {
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    width: 298px;
+    height: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    display: block;
+}
+
+
+.continue img {
+    display: inline-block;
+    vertical-align: middle;
+}
