@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 10px solid black;
+    background-color: red;
+    /* display: block; */
+    display: inline-block;
+}
+
+.wrapper {
+    width: 1000px;
+    background-color: yellow;
+}
+
+.parent {
+    font-size: 0;
+}
+
+.elem {
+    width: 250px;
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.elem-1 {
+    font-size: 100px;
+}
