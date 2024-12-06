@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/* .box-01 {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+
+    position: relative;
+    left: 20px;
+    top: 30px;
+} */
+
+
+.box-02 {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.box-03 {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+.card {
+    width: 25%;
+    background-color:red;
+    padding: 30px;
+    position: relative;
+}
+
+
+.sale {
+    padding: 20px;
+    background-color: green;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+
+.box-prent {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+}
+
+.box-middle {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.box-kid {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.fixed {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+
+.box-10 {
+    background-color: yellow;
+}
+
+
+.stik {
+    position: sticky;
+    left: 0;
+    top: 0;
+    background-color: red;
+    width: 200px;
+    height: 100px;
+}
+
+
+.box-card {
+    width: 33.333%;
+    background-color: yellow;
+    position: relative;
+    border-top: 3px solid transparent;
+}
+
+
+
+
+.box-share {
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 7px;
+    transform: translateX(-50%);
+    width: 134px;
+    justify-content: space-between;
+}
+
+.box-share-btn {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-share-btn:hover path {
+    fill:#46A358;
+}
+.box-card:hover .box-share {
+    display: flex;
+}
+
+.box-card:hover {
+    border-top-color: #46A358;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box300 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.box400 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+
+.box500 {
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    position: absolute;
+    left: 250px;
+    top: 250px;
+}
+
+
+.header {
+    box-shadow: 0 10px 20px rgba(45, 45, 45, 0.8);
+}
+
+.bout {
+
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart {
+    background-image: url(../img/card.svg);
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.count {
+    font-size: 10px;
+    color: #fff;
+    text-decoration: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    border: 2px solid white;
+    right: -5px;
+    top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.popup {
+    width: 480px;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+}
+
+
+.close {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+
+
+.sort {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.sort-default {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.sort-default::after {
+    content: '';
+    background-image: url('../img/sort.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+}
+
+.sort-default.is-active::after {
+    transform: rotate(180deg);
+}
+
+
+.sort-block {
+    position: absolute;
+    right: 0;
+    top: 30px;
+
+    width: 200px;
+    padding: 20px;
+    background-color: yellow;
+    display: none;
+}
+
+.sort-block ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sort-block li {
+    margin-bottom: 20px;
+}
+
+
+.sort-block button {
+    border: none;
+    background-color: red;
+}
