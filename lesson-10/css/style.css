@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    min-width: 991px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    background-color: yellowgreen;
+}
+
+.item {
+    width: 25%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+
+
+b {
+
+}
+
+.class {
+
+}
+
+#id {
+
+}
+
+/* .menu a {
+    display: flex;
+} */
+
+.class-01 .box,
+.class-02,
+h2,
+#id {
+    font-display: auto;
+}
+
+/* 
+.box-elem {
+    color: red;
+} */
+
+
+
+/* .box-main ~ .box-elem {
+    color: red;
+    font-size: 100px;
+} */
+
+/* .box-main:hover + .box-elem {
+    color: red;
+    font-size: 100px;
+} */
+
+
+.menu {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 200px;
+}
+
+
+.menu > li {
+    padding: 0 20px;
+    position: relative;
+}
+
+.menu > li > a,
+.menu > li > button {
+    font-family: inherit;
+    font-size: 18px;
+    cursor: pointer;
+    color: green;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.menu > li:hover > a,
+.menu > li:hover > button {
+    text-decoration: underline;
+}
+
+
+
+.submenu {
+    display: none;
+   position: absolute;
+   left: 20px;
+   top: 44px;
+   padding: 0;
+   list-style: none;
+   width: 200px;
+   box-shadow: 0 0px 10px rgba(0,0,0,0.5);
+   padding: 20px 20px 0;
+}
+.submenu::before {
+    content: '';
+    height: 30px;
+    width: 100%;
+    background-color: blue;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -26px;
+}
+.submenu li {
+    padding-bottom: 20px;
+}
+.submenu a {
+    color: red;
+    display: block;
+    background-color: lightblue;
+}
+.submenu a:hover {
+    background-color: blue;
+}
+.menu > li:hover .submenu {
+    display: block;
+}
+
+
+.loink:hover {
+    color: red;
+}
+
+/* .loink:active {
+    color: black;
+} */
+
+.default:focus {
+    outline: none;
+    color: black;
+    box-shadow: 0 5px 0 ;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+
+.list li {
+    margin-right: 20px;
+}
+
+/* .list li:last-child {
+    color: red;
+    margin-right: 0;
+}
+
+.list li:first-child {
+    color: green;
+} */
+
+
+/* .list li:nth-child(4n + 1) { 
+    color: red;
+} */
+
+
+/* .list li:nth-last-child(4) {
+    color: red;
+} */
+
+/* a*n + b
+
+n 0 1 2 3 4 5 6..... */
