@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.body {
+    font-family: "Cera Pro";
+}
+
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+
+
+/* .box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: sun;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+
+
+@keyframes sun {
+    from {
+        width: 200px;
+        background-color: red;
+    }
+    to {
+        width: 600px;
+        background-color: green;
+    }
+} */
+
+
+
+
+
+
+
+/* .btn {
+    font-family: inherit;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: normal;
+    background-image: url('../img/login.svg');
+    background-repeat: no-repeat;
+    background-position: 17px center;
+    background-color: #46A358;
+    border-radius: 6px;
+    border: 0;
+    padding: 8px 17px 8px 41px;
+}
+
+
+.btn2 {
+    display: inline-flex;
+    align-items: center;
+    font-family: inherit;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: normal;
+    background-color: #46A358;
+    border-radius: 6px;
+    border: 0;
+    padding: 8px 17px 8px 17px;
+}
+
+.btn2 svg {
+    margin-right: 6px;
+} */
+
+
+/* 
+.spinner {
+    display: inline-flex;
+    animation-name: spinner;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+} */
+
+
+.check:checked + .sonechko {
+    animation-play-state: running;
+}
+
+
+
+.sonechko {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: orange;
+    animation-name: sonechko;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: paused;
+
+    /* animation-fill-mode: forwards; */
+    /* animation-fill-mode: backwards; */
+    animation-fill-mode: both;
+}
+
+
+@keyframes sonechko {
+    0% {
+        background-color: green;
+    }
+    50% {
+        bottom: 400px;
+        left: 50%;
+        background-color: red;
+    }
+    100% {
+        bottom: 0;
+        left: 90%;
+        background-color: yellow;
+    }
+}
+
+
+
+.box100 {
+    /* opacity: 0.5;
+    background-color: red; */
+    background-color: rgba(255,0,0,0.5);
+}
+
+.check-text {
+
+}
+
+.check-text::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #3D3D3D;
+
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+
+
+.checkbox:checked + .check-text::before {
+    background-image: url('../img/check.svg');
+}
+
+
+
+
+
+
+
+
+
+.radio-text::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #3D3D3D;
+
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.radio:checked + .radio-text::before {
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+.ui-slider {
+    margin: 30px 0;
+    height: 4px;
+    background: rgba(70, 163, 88, 0.20);
+    position: relative;
+
+}
+
+.ui-slider-handle {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    background-color: #46A358;
+    position: absolute;
+    top: -6px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #ffffff;
+}
+
+
+.ui-slider-range {
+    background-color: green;
+    position: absolute;
+    height: 4px;
+}
+
+
+.box-shadow {
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    color: red;
+    background-color: green;
+    box-shadow: 10px 15px 20px 0 rgba(255,0,0,0.5), 
+                -10px -15px 0 0 black;
+}
