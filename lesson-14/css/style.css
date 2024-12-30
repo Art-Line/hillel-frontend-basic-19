@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    max-width: 1220px;
+    min-width: 320px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+/* 
+.about {
+
+}
+
+.abput__item {
+    margin-bottom: 10px;
+}
+
+.about-wrpa {
+    background-color: red;
+    padding: 20px;
+}
+
+
+@media (min-width:768px) {
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+    }
+    .abput__item {
+        width: 50%;
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 820px) {
+    .about-wrpa {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    .abput__item {
+        width: 25%;
+    }
+    .menu {
+        display: flex;
+        margin: 0;
+        list-style: none;
+    }
+
+    .menu li {
+        margin-right: 30px;
+    }
+} */
+
+
+.sertificate__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.sertificate__item {
+    width: 20%;
+    padding: 0 10px 10px;
+}
+
+.sertificate__box {
+    border: 3px solid black;
+    padding: 20px;
+}
+
+@media (max-width:1200px) {
+    .sertificate__box {
+        padding: 16px;
+        border-color: red;
+    }
+    .sertificate__item {
+        
+    }
+        
+}
+
+@media (max-width:991px) {
+    .sertificate__item {
+        width: 33.333%;
+    }
+}
