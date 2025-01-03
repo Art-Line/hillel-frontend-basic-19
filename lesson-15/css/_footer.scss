@@ -1,0 +1,9 @@
+.footer {
+    padding: 10px;
+    .box {
+        font-size: 15px;
+        & + .elem {
+            font-size: 23px;
+        }
+    }
+}

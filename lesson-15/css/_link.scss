@@ -1,0 +1,24 @@
+.link  {
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid;
+    color: #fff;
+
+    &--green {
+        background-color: green;
+    }
+    &--yellow {
+        background-color: yellow;
+    }
+
+    &--xs {
+        font-size: 10px;
+    }
+    &--md {
+        font-size: 12px;
+    }
+    &--xl {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,26 @@
+.about {
+    margin: 10px;
+    padding: 10px;
+    &__item {
+        padding: 20px;
+        &-text {
+            color: blue;
+        }
+        a {
+            color: black;
+        }
+    }
+    &__title {
+        font-size: 20px;
+        color: red;
+    }
+}
+
+@media (min-width: 992px) {
+    .about {
+        margin: 6px;
+        &__title {
+            font-size: 18px;
+        }
+    }
+}

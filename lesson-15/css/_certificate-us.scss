@@ -1,0 +1,10 @@
+.certificate-us {
+    display: flex;
+    padding: 10px;
+    &__item {
+        padding: 10px;
+        &_red {
+            background-color: red;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.menu {
+    display: flex;
+    list-style: none;
+    & > li {
+        padding: 32 + 19px;
+        border-bottom: 1px solid $green;
+        &::before {
+            content: 'before';
+            background-color: $lightgreen;
+        }
+        & > a {
+            color: $green;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.body {
+  min-width: 320px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: red;
+}
+
+.certificate-us {
+  display: flex;
+  padding: 10px;
+}
+.certificate-us__item {
+  padding: 10px;
+}
+.certificate-us__item_red {
+  background-color: red;
+}
+
+.about {
+  margin: 10px;
+  padding: 10px;
+}
+.about__item {
+  padding: 20px;
+}
+.about__item-text {
+  color: blue;
+}
+.about__item a {
+  color: black;
+}
+.about__title {
+  font-size: 20px;
+  color: red;
+}
+
+@media (min-width: 992px) {
+  .about {
+    margin: 6px;
+  }
+  .about__title {
+    font-size: 18px;
+  }
+}
+.menu {
+  display: flex;
+  list-style: none;
+}
+.menu > li {
+  padding: 51px;
+  border-bottom: 1px solid #50B949;
+}
+.menu > li::before {
+  content: "before";
+  background-color: #7cd676;
+}
+.menu > li > a {
+  color: #50B949;
+}
+.menu > li > a:hover {
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+.menu > li {
+  padding: 51px;
+  border-block-start: 1px solid #fff;
+}
+.menu > li::before {
+  content: "before";
+  background-color: #000;
+}
+.menu > li > a {
+  color: #50B949;
+}
+.menu > li > a:hover {
+  text-decoration: none;
+}
+
+.footer {
+  padding: 10px;
+}
+.footer .box {
+  font-size: 15px;
+}
+.footer .box + .elem {
+  font-size: 23px;
+}
+
+.about {
+  margin: 10px;
+  padding: 10px;
+}
+.about__item {
+  padding: 20px;
+}
+.about__item-text {
+  color: blue;
+}
+.about__item a {
+  color: black;
+}
+.about__title {
+  font-size: 20px;
+  color: red;
+}
+
+@media (min-width: 992px) {
+  .about {
+    margin: 6px;
+  }
+  .about__title {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=style.css.map */
