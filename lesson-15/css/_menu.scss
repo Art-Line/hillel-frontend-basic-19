@@ -1,15 +1,16 @@
+@use "variable";
 .menu {
     display: flex;
     list-style: none;
     & > li {
         padding: 32 + 19px;
-        border-bottom: 1px solid $green;
+        border-bottom: 1px solid variable.$green;
         &::before {
             content: 'before';
-            background-color: $lightgreen;
+            background-color: variable.$lightgreen;
         }
         & > a {
-            color: $green;
+            color: variable.$green;
             &:hover {
                 text-decoration: none;
             }

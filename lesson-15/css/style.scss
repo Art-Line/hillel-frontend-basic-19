@@ -1,9 +1,9 @@
-@import "variable";
-@import "start";
-@import "header";
-@import "certificate-us";
-@import "about";
-@import "menu.scss";
-@import "menu.sass";
-@import "footer";
-@import "about";
+// @use "variable";
+// @use "start";
+// @use "header";
+// @use "certificate-us";
+// @use "about";
+@use "menu.scss";
+// @use "menu.sass";
+// @use "footer";
+// @use "about";
