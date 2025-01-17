@@ -1,0 +1,32 @@
+.bg {
+    background-image: url('../img/team_mob.jpg');
+}
+
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .bg {
+        background-image: url('../img/team_mob@2x.jpg');
+    }
+}
+
+@media (min-width:768px) {
+    .bg {
+        background-image: url('../img/team_tab.jpg');
+    }
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+        .bg {
+            background-image: url('../img/team_tab@2x.jpg');
+        }
+    }
+}
+
+
+@media (min-width:992px) {
+    .bg {
+        background-image: url('../img/team_desc.jpg');
+    }
+}
+@media (min-width:992px) and (min-resolution: 144dpi), (min-width:992px) and (min-resolution: 1.5dppx) {
+    .bg {
+        background-image: url('../img/team_desc@2x.jpg');
+    }
+}
