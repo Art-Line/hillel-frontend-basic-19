@@ -1,1 +1,13 @@
 @use 'header';
+
+.burger {
+    display: none;
+}
+
+.burger.active {
+    display: block;
+}
+
+.cross.noactive {
+    display: none;
+}

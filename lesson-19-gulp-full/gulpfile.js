@@ -152,8 +152,14 @@ gulp.task('watch', function () {
     gulp.watch('app/*.html', gulp.parallel('code'));
 });
 
+gulp.task('webp-prod', function () {
+    return gulp.src("app/img/**/*.{jpg,png}")
+        .pipe(webp({ quality: 90 }))
+        .pipe(gulp.dest("dist/img"))
+});
+
 gulp.task('default', gulp.parallel('sass', 'js', 'js-script', 'svg-sprite', 'browser-sync', 'watch'));  //  Запускаем задачи в режиме разработки командой gulp
-gulp.task('build', gulp.series('clean', 'css', 'js-prod', 'html', 'optimize-images', 'svg-sprite-prod', 'copy-dist')); //  Собираем проект для продакшена командой gulp build
+gulp.task('build', gulp.series('clean', 'css', 'js-prod', 'html', 'optimize-images', 'svg-sprite-prod', 'copy-dist', 'webp-prod')); //  Собираем проект для продакшена командой gulp build
 
 gulp.task('webp', function () {
     return gulp.src("app/img/**/*.{jpg,png}")
@@ -161,8 +167,4 @@ gulp.task('webp', function () {
         .pipe(gulp.dest("app/img"))
 });
 
-gulp.task('webp-prod', function () {
-    return gulp.src("app/img/**/*.{jpg,png}")
-        .pipe(webp({ quality: 90 }))
-        .pipe(gulp.dest("dist/img"))
-});
+
