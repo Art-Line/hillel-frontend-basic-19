@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .burger-cross {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .menu.menu-show {
+        display: block;
+    }
+    .burger.active .burger-cross {
+        display: block;
+    }
+    .burger.active .burger-lines {
+        display: none;
+    }
+</style>
+<body>
+
+    <button type="button" class="burger js-burger">
+        <div class="burger-cross">X</div>
+        <div class="burger-lines">|||</div>
+    </button>
+
+    <div class="menu">
+        menu
+    </div>
+
+    <!-- <div class="wrapper">
+        <header class="header"></header>
+    </div>
+    <main>
+        <section class="wrapper wrapper_1080">
+
+        </section>
+        <section class="ta-c">
+            <img class="img-responsive" src="" alt="">
+        </section>
+        <section class="wrapper wrapper_1080">
+
+        </section>
+    </main>
+    <footer class="">
+        <div class="wrapper">
+
+        </div>
+    </footer> -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

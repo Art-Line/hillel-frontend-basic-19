@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.item {
+    border: 2px solid red;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.wrapper {
+   max-width: 1200px;
+   min-width: 320px;
+}
+
+.g-30px {
+    --bs-gutter-y: 30px;
+    --bs-gutter-x: 30px;
+}
+
+
+/* .menu li:hover a {
+    padding: auto;
+} */

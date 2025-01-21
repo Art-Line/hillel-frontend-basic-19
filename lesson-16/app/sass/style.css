@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+*::after, *::before {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.wrapper {
+  max-width: 1350px;
+  min-width: 375px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  padding: 10px;
+  margin: 98;
+}
+
+.gradient {
+  border-radius: 0px 0px 12px 12px;
+  background: url("../img/symbol-h.svg") no-repeat center top, linear-gradient(229deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  position: relative;
+  margin-bottom: 20px;
+}
+.gradient::after {
+  content: "";
+  border-radius: 0px 0px 12px 12px;
+  background-color: red;
+  height: 10px;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: -10px;
+}
+.gradient::before {
+  content: "";
+  border-radius: 0px 0px 12px 12px;
+  background-color: green;
+  height: 10px;
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: -20px;
+}
+
+@media (min-width: 768px) {
+  .gradient {
+    background-size: 893px 1024px, auto auto;
+  }
+}
+.solution {
+  padding-top: 129px;
+  padding-bottom: 159px;
+  margin-left: 1px;
+}/*# sourceMappingURL=style.css.map */

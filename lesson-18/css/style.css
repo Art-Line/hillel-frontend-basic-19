@@ -84,6 +84,10 @@
   display: none;
 }
 
+.slider {
+  display: flex;
+}
+
 .slider__item {
   border: 5px solid black;
   padding: 10px;
